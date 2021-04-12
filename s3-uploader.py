@@ -2,7 +2,7 @@ import boto3
 import os
 import webbrowser
 
-# Choose your bucket name
+# Choose your bucket name (if error occurs change bucket name)
 BUCKET_NAME = 'image-upload-6001'
 URL_AWS = '.s3.amazonaws.com/'
 HTTP = 'https://'
